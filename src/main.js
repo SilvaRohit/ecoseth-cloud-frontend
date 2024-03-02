@@ -12,7 +12,7 @@ import ToastService from 'primevue/toastservice'
 
 const pinia = createPinia()
 const app = createApp(App)
-const port = process.env.PORT || 8080;
+const port = process.env.example.PORT || 8080;
 
 app.listen(port, () => {
     console.log(`Server listening on port ${port}`);
